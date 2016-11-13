@@ -1,0 +1,50 @@
+body {
+	
+	background-image: url("../img/luna2.jpg");
+	background-repeat:repeat-x;
+	background-position:left bottom;
+	background-attachment: fixed;
+    background-color:black;
+    }
+	#tierra {
+		
+		width:120px;
+		height:90px;
+		position: fixed;
+		left: 1200px;
+		top: 400px;
+	}
+	
+	#nave {
+		width:300px;
+		height:200px;
+		position: relative;
+		left:500px;
+		top:400px
+		
+	}
+	
+	#controlpanel {
+		background-color:lightgrey;
+		border: 5px solid red;
+		padding:5px;
+		width:175px;
+		position:fixed;
+		top:10px;
+		}
+		
+	#gameoptions{
+		background-color:lightgrey;
+		border: 5px solid green;
+		padding: 5px;
+		width:175px;
+		position:fixed;
+		left:1200px;
+		top:10px;
+	}	
+	.titulos{
+		background-color:black;color:white;
+		text-align: center;
+		margin:0;
+	}
+	
